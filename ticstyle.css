@@ -1,0 +1,55 @@
+body {
+    font-size: 20pt;
+}
+h1 {
+    text-align: center;
+    color:rgb(67, 145, 213);
+    opacity: .67;
+}
+#game-grid tr {
+    height: 100px;
+}
+#game-grid td {
+    width: 20px;
+    max-width: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#game-grid td[player],
+#game-grid.game-end td {
+    cursor: default;
+}
+
+#body-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: rgb(178, 22, 163);
+}
+
+#game-grid,
+#game-grid td {
+    border: 5px solid rgb(178, 22, 163);
+    border-collapse: collapse;
+}
+
+#game-grid {
+    width: 100%;
+}
+
+#reset-button {
+    text-align: center;
+    padding-top: 10px;
+}
+.winning-combo {
+    color: rgb(86, 68, 224);
+}
+.win {
+    font-weight: bold;
+    color: rgb(86, 68, 224);
+}
+.hidden {
+    display: none;
+}
